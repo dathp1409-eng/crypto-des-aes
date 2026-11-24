@@ -40,7 +40,10 @@ bool parseHex16(const string& h, byte out[16]) {
 }
 
 // In 16 byte theo thu tu cot (giong cach FIPS-197 in state)
-
+void printBytes(const char* label, const byte b[16]) {
+    printf("%-22s", label);
+    for (int i = 0; i < 16; i++) printf("%02x ", b[i]);
+    printf("\n");
 }
 
 // state[r][c] <-> mang 16 byte: byte thu i nam o hang i%4, cot i/4
