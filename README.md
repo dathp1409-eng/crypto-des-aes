@@ -39,7 +39,7 @@ g++ -std=c++17 -o des des.cpp
 - C0/D0, C_i/D_i, 16 khóa con K1..K16 (dạng bit và hex)
 - Sau hoán vị đầu IP, L0, R0
 - Mỗi vòng: E(R), E(R) xor K, đầu ra S-box, f(R,K), L_i, R_i
-- R16L16 và kết quả sau hoán vị cuối FP
+- 
 
 ## Test vector đã kiểm chứng
 
